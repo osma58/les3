@@ -1,0 +1,47 @@
+public class pLes3
+{
+    public static  void  main (string[] args)
+
+    {
+        int willekeurig = (int) Math.ceil(Math.random() * 10);
+
+        switch (willekeurig)
+        {
+            case 3:
+                System.out.println("switch3");
+                 break;
+            case 1: case:2
+                    case:6
+                System.out.println("switch is 1, 2, 6!");
+        }
+
+        System.out.println(willekeurig);
+        if (willekeurig >= 8)
+        {
+            System.out.println("Getal is 8 of hoger.");
+        }
+        else if (willekeurig==7)
+        {
+            System.out.println("OMG, geljk aan 7!);
+        }
+        else if (willekeurig > 3  && willekeurig < 7)
+        {
+            System.out.println("het is een getal tussen 3 en 7");
+        }
+        else
+        {
+            System.out.println("Het is een ander getal....:(");
+        }
+        if (willekeurig == 1 || willekeurig == 3)
+        {
+            System.out.println("Het getal is 1 of 3...:)");
+        }
+
+        System.out.println("Einde programma. -__-");
+
+    }
+
+
+
+
+}
